@@ -23,7 +23,7 @@ namespace assh25
             if (Input.GetKey(KeyCode.A)) // Left
             {
                 // transform.GetChild(0).gameObject.SetActive(true);
-                scaleFactor -= Time.deltaTime * 5;
+                scaleFactor -= Time.deltaTime ;
             }
 
             else if (Input.GetKey(KeyCode.D)) // Right
